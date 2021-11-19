@@ -6,9 +6,6 @@
   "files": [
     "index.js"
   ],
-  "scripts": {
-    "prepublishOnly": "git push --follow-tags"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/crashmax-dev/eslint-config.git"
