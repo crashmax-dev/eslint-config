@@ -73,9 +73,6 @@ module.exports = {
       'warn',
       'always-multiline'
     ]
-  },
-  env: {
-    node: true
   }
 }
 
