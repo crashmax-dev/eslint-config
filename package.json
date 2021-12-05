@@ -21,8 +21,8 @@
   },
   "homepage": "https://github.com/crashmax-dev/eslint-config#readme",
   "peerDependencies": {
-    "@typescript-eslint/eslint-plugin": "^5.4.0",
-    "@typescript-eslint/parser": "^5.4.0",
-    "eslint": "^8.2.0"
+    "@typescript-eslint/eslint-plugin": "^5.5.0",
+    "@typescript-eslint/parser": "^5.5.0",
+    "eslint": "^8.4.0"
   }
 }
