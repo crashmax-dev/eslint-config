@@ -20,14 +20,16 @@ module.exports = {
     '@typescript-eslint/no-empty-function': 'off',
     '@typescript-eslint/ban-ts-comment': 'off',
     '@typescript-eslint/indent': [
-      'error',
+      'warn',
       2
     ],
     'eqeqeq': 'warn',
     'no-var': 'warn',
     'no-multi-spaces': 'warn',
-    'indent': [
-      'off'
+    'indent': 'off',
+    'eol-last': [
+      'warn',
+      'always'
     ],
     'object-curly-spacing': [
       'warn',
@@ -77,4 +79,3 @@ module.exports = {
     ]
   }
 }
-
