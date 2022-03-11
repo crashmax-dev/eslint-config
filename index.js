@@ -13,6 +13,9 @@ module.exports = {
     'plugin:@typescript-eslint/recommended-requiring-type-checking'
   ],
   rules: {
+    '@typescript-eslint/no-non-null-assertion': 'off',
+    '@typescript-eslint/no-unsafe-argument': 'off',
+    '@typescript-eslint/no-misused-promises': 'off',
     '@typescript-eslint/consistent-type-imports': 'error',
     '@typescript-eslint/no-floating-promises': 'off',
     '@typescript-eslint/no-unused-vars': 'off',
