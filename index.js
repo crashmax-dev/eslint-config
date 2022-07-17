@@ -1,6 +1,19 @@
 module.exports = {
   root: true,
   parser: '@typescript-eslint/parser',
+  ignorePatterns: [
+		'dist',
+    'node_modules',
+    '.vscode',
+    '.github',
+    '.turbo',
+    '.svelte-kit',
+    '.angular',
+    '.next',
+    '*.config.ts',
+    '*.config.js',
+		'.eslintrc.*',
+	],
   parserOptions: {
     project: './tsconfig.json'
   },
