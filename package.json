@@ -1,6 +1,6 @@
 {
   "name": "@crashmax/eslint-config",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "eslint-config",
   "main": "index.js",
   "files": [
@@ -21,8 +21,8 @@
   },
   "homepage": "https://github.com/crashmax-dev/eslint-config#readme",
   "peerDependencies": {
-    "@typescript-eslint/eslint-plugin": "^5.14.0",
-    "@typescript-eslint/parser": "^5.14.0",
-    "eslint": "^8.10.0"
+    "@typescript-eslint/eslint-plugin": "5.30.6",
+    "@typescript-eslint/parser": "5.30.6",
+    "eslint": "^8.20.0"
   }
 }
